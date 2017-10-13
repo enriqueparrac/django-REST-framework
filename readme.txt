@@ -1,0 +1,1 @@
+Ejemplo de aplicación usando Django, django REST framework, jQuery y AJAX.

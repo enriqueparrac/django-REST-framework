@@ -1,0 +1,33 @@
+.parrafo_uno{
+    border-style: double;
+    border-width: 5px;
+    border-color: blue;
+}
+
+.parrafo_dos{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: red;
+}
+
+.borde-azul{
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;}
+
+.fondo-verde{
+    background: green;
+}
+
+.fondo-amarillo{
+    background: yellow;
+}
+
+.fondo-gris{
+    background: gray;
+}
+
+.tabla-grid{
+    border: 2px;
+    width: 100%
+}

@@ -1,0 +1,26 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRUEBAS-Base</title>
+</head>
+<body>
+    <script>
+        var urlIcono = 'fa fa-lg fa-';
+    </script>
+
+    <link rel="stylesheet" href="{% static 'core/js/ext/temas/sisamex/sisamex.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/estilos.css' %}">
+    <link rel="stylesheet" href="{% static 'core/css/sisamex.css' %}">
+
+    <script src="{% static 'core/js/ext/ext-all.js' %}"></script>
+    <script src="{% static 'core/js/ext/idioma/locale-es.js' %}"></script>
+    <script src="{% static 'core/js/libreriaExt.js' %}"></script>
+    {% block js_modulo %}{% endblock js_modulo %}
+</body>
+</html>

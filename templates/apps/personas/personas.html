@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load staticfiles %} 
+{% block js_modulo %}
+<!--sus js -->
+
+<!--funciones -->
+<script src="{% static 'apps/personas/funciones/funciones.personas_api.js' %}"></script>
+<!--stores -->
+
+<!--combos -->
+<script src="{% static 'generales/combos/combo.estado_civil.js' %}"></script>
+<!--toolbars -->
+<script src="{% static 'apps/personas/toolbars/toolbar.personas_api.js' %}"></script>
+<!--formas -->
+
+<!--grids -->
+<script src="{% static 'apps/personas/grids/grid.personas_api.js' %}"></script>
+<!--paneles -->
+
+<!--tabs -->
+
+<!--ventanas -->
+
+<!--viewports -->
+<script src="{% static 'apps/personas/viewports/viewport.personas_api.js' %}"></script> 
+{% endblock js_modulo %}
+
+
